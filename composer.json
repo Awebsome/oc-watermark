@@ -1,0 +1,23 @@
+{
+    "name": "awebsome/watermark",
+    "type": "october-plugin",
+    "description": "October watermark",
+    "homepage": "https://awebsome.me",
+    "keywords": ["octobercms", "awebsome", "watermark"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Zamora",
+            "email": "lucaszdv@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "intervention/image": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awebsome\\Watermark\\": ""
+        }
+    }
+}

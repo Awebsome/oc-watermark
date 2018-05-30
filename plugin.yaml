@@ -1,0 +1,6 @@
+plugin:
+    name: 'awebsome.watermark::lang.plugin.name'
+    description: 'awebsome.watermark::lang.plugin.description'
+    author: Awebsome
+    icon: oc-icon-certificate
+    homepage: 'https://awebsome.me'

@@ -1,0 +1,15 @@
+tabs:
+    fields:
+        watermark_sm:
+            tab: Watermark
+            label: Watermark (Small)
+            span: left
+            type: mediafinder
+            mode: image
+
+        watermark_lg:
+            tab: Watermark
+            label: Watermark (Large)
+            span: right
+            type: mediafinder
+            mode: image

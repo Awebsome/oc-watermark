@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Image
+
+# Model Form Field configuration
+form: $/awebsome/watermark/models/image/fields.yaml
+
+# Model Class name
+modelClass: Awebsome\Watermark\Models\Image
+
+# Default redirect location
+defaultRedirect: awebsome/watermark/images
+
+# Create page
+create:
+    title: Create Image
+    redirect: awebsome/watermark/images/update/:id
+    redirectClose: awebsome/watermark/images
+
+# Update page
+update:
+    title: Edit Image
+    redirect: awebsome/watermark/images
+    redirectClose: awebsome/watermark/images
+
+# Preview page
+preview:
+    title: Preview Image

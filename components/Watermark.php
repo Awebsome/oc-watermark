@@ -9,7 +9,7 @@ class Watermark extends ComponentBase
     {
         return [
             'name'        => 'Watermark',
-            'description' => ''
+            'description' => 'Watermark component'
         ];
     }
 

@@ -16,7 +16,7 @@ class Clear extends Command
     /**
      * @var string The console command description.
      */
-    protected $description = 'No description provided yet...';
+    protected $description = 'Delete all the images created by watermark.';
 
     /**
      * Execute the console command.

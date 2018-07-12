@@ -106,7 +106,6 @@ class Watermark
             $newImage->path = $new_file;
             $newImage->disk_name = $wm_file_name;
             $newImage->size = $size;
-            //$newImage->properties = ;
             $newImage->save();
 
             // Log::info("new watermark created: ".$new_file);

@@ -3,6 +3,3 @@
 1.0.2:
     - 'Create images table'
     - create_images_table.php
-1.0.3:
-    - 'Update fix deprecated (JSON MySQL Column)'
-    - update_images_table.php

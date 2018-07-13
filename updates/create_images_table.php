@@ -16,8 +16,6 @@ class CreateImagesTable extends Migration
             $table->string('size');
             $table->string('disk_name');
 
-            $table->json('properties')->nullable();
-
             $table->timestamps();
         });
     }
